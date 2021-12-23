@@ -21,7 +21,6 @@ void main() {
     if (guess == null) {
       continue;
     }
-
     var result = game.doGuess(guess);
     var sum=game.sum;
     if (result == 1) {
@@ -56,7 +55,4 @@ void main() {
     }
 
   }while (!isCorrect);
-
-
-
 }
